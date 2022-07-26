@@ -43,12 +43,24 @@ a:hover,a:focus,a:active{
 /* single product page */
 
 .product-image{
-    height:480px;
-    max-width: 520px;
+    height:490px;
+    max-width: 90%;
     border-radius: 20px;
     /* margin-top: 60px; */
     margin-bottom: 50px;
 
+}
+
+.product-page-stock-card{
+    background-color: #ffe2e1;
+    border-radius: 10px;
+    color: #bb2b3f;
+    height: 21px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    
 }
 .product-page-subtitle{
     color: brown;
@@ -60,4 +72,60 @@ a:hover,a:focus,a:active{
 
     font-size: 30px;
     font-weight: bold;
+}
+
+.product-page-rating{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.product-page-prize{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-page-subtitle2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.product-page-box-size{
+    border-radius: 8px;
+    margin-top: 30px;
+    border: solid 1px rgb(150, 150, 150);
+    padding: 10px 17px;
+    max-width: 100px;
+    background-color: white;
+    color: #283035;
+
+}
+.product-page-subtitle3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.product-page-input{
+    border-radius: 5px;
+    margin-top: 30px;
+    border: solid 1px rgb(150, 150, 150);
+    padding: 5px 0px;
+    max-width: 100px;
+}
+.product-page-button1{
+    color:#283035;
+    background-color:#f9bf07;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 35px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.product-page-button2{
+    color:white;
+    background-color:#00ab55;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 45px;
+    font-weight: bold;
+    margin-top: 40px;
 }
